@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  overflow-y: hidden;
+  height: calc(100vh - 120px);
+}
+
+nav {
+  background-color: #8E44AD;
+  padding: 20px;
+}
+
+.home {
+  /* background-color: #F7E029; */
+  min-height: 100vh;
+}
+
+.link-1,
+.link-2 {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-right: 1%;
+}
+
+h1 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-divertidamente {
+  flex: 1;
+  text-align: justify;
+  margin: -30px -30px 0 80px;
+}
+
+.imagem-divertidamente img {
+  height: auto;
+  max-width: 80%;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0.5, 0.5); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 30px, 0 30px, 0;
+}
+
+.sobre-riley {
+  background-color: #5DADE2;
+  padding: 20px;
+  text-align: center;
+}
+
+.sobre-riley img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.personagem {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.personagem img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.carousel {
+  background-color: #5DADE2;
+  padding: 20px;
+  text-align: center;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+.carousel button {
+  margin: 0 10px;
+}
+
+footer {
+  background-color: #E74C3C;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
