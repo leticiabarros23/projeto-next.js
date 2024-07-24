@@ -12,7 +12,7 @@ const NavBar = () => {
       </Link>
 
       <Link className='link-2' href="/sobre">
-       Sobre Riley
+       Blog da Riley
       </Link>
 
     </nav>
